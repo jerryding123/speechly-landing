@@ -1,20 +1,20 @@
 ---
-title: "Master Any Interview: The Complete Guide to Chronicle AI"
+title: "Master Any Interview: The Complete Guide to Speechly AI"
 date: "2024-01-15"
-excerpt: "Discover how Chronicle's AI copilot helps you ace both technical and behavioral interviews with real-time, personalized answers. Get started in minutes."
-author: "Chronicle Team"
+excerpt: "Discover how Speechly's AI copilot helps you ace both technical and behavioral interviews with real-time, personalized answers. Get started in minutes."
+author: "Speechly Team"
 tags: ["interview-preparation", "ai-assistant", "job-search", "technical-interviews", "behavioral-interviews"]
 image: "/static/blog-images/getting-started.png"
 ---
 
-# Master Any Interview: The Complete Guide to Chronicle AI
+# Master Any Interview: The Complete Guide to Speechly AI
 
-Landing your dream job shouldn't depend on memorizing thousands of coding problems or rehearsing scripted answers. With Chronicle's AI copilot, you get **real-time, personalized assistance** during actual interviews—completely undetectable and tailored specifically to you.
+Landing your dream job shouldn't depend on memorizing thousands of coding problems or rehearsing scripted answers. With Speechly's AI copilot, you get **real-time, personalized assistance** during actual interviews—completely undetectable and tailored specifically to you.
 
-![Chronicle App Interface](/static/blog-images/getting-started.png)
-*Chronicle's intuitive mobile interface - your secret weapon for interview success*
+![Speechly App Interface](/static/blog-images/getting-started.png)
+*Speechly's intuitive mobile interface - your secret weapon for interview success*
 
-## Why Chronicle Changes Everything
+## Why Speechly Changes Everything
 
 **The Problem with Traditional Interview Prep:**
 - Endless LeetCode grinding that doesn't reflect real job skills
@@ -22,7 +22,7 @@ Landing your dream job shouldn't depend on memorizing thousands of coding proble
 - Forgetting everything under interview pressure
 - One-size-fits-all approaches that ignore your unique background
 
-**The Chronicle Solution:**
+**The Speechly Solution:**
 - **Instant AI responses** to any question (technical or behavioral)
 - **Fully customized** to your resume, experience, and target role
 - **Completely undetectable** - runs on your phone, not your interview device
@@ -33,7 +33,7 @@ Landing your dream job shouldn't depend on memorizing thousands of coding proble
 
 ### Step 1: Personalize Your AI Copilot 🎯
 
-Unlike generic AI tools, Chronicle learns about **you**:
+Unlike generic AI tools, Speechly learns about **you**:
 
 - **Upload your resume** - AI understands your background, skills, and experience
 - **Add personal details** - Projects, achievements, career goals
@@ -85,7 +85,7 @@ For each interview, customize your copilot:
 **Example Response:**
 > *"Based on your resume, here's a story about the mobile app project you led at your previous company, structured using the STAR method..."*
 
-## Why Chronicle Beats the Competition
+## Why Speechly Beats the Competition
 
 ### Completely Undetectable ✅
 - **Runs on your phone** - separate from your interview device
@@ -94,7 +94,7 @@ For each interview, customize your copilot:
 - **Zero digital footprint** - no browser extensions or desktop apps
 
 ### Beyond Just Coding 🚀
-While tools like Interview Coder only handle LeetCode problems, Chronicle covers:
+While tools like Interview Coder only handle LeetCode problems, Speechly covers:
 - **Technical interviews** (coding, system design, algorithms)
 - **Behavioral questions** (leadership, teamwork, problem-solving)
 - **Case studies** (product, consulting, strategy)
@@ -109,13 +109,13 @@ While tools like Interview Coder only handle LeetCode problems, Chronicle covers
 ## Real Success Stories
 
 ### Sarah, Software Engineer → Google
-*"I was terrible at behavioral interviews despite being a strong coder. Chronicle helped me craft authentic stories from my experience. The AI knew my background so well, it felt like having a career coach in my pocket. Landed my dream role at Google!"*
+*"I was terrible at behavioral interviews despite being a strong coder. Speechly helped me craft authentic stories from my experience. The AI knew my background so well, it felt like having a career coach in my pocket. Landed my dream role at Google!"*
 
 ### Marcus, Product Manager → Meta
-*"The case study questions were impossible to prep for. Chronicle generated framework-based responses on the spot, using examples from my previous PM experience. Game-changer for switching from engineering to product."*
+*"The case study questions were impossible to prep for. Speechly generated framework-based responses on the spot, using examples from my previous PM experience. Game-changer for switching from engineering to product."*
 
 ### Lisa, Data Scientist → Netflix
-*"Chronicle saved me from LeetCode burnout. Instead of memorizing solutions, I got personalized explanations that made sense for my background in statistics. The AI even adjusted for Netflix's specific interview style."*
+*"Speechly saved me from LeetCode burnout. Instead of memorizing solutions, I got personalized explanations that made sense for my background in statistics. The AI even adjusted for Netflix's specific interview style."*
 
 ## Advanced Features You'll Love
 
@@ -137,9 +137,9 @@ While tools like Interview Coder only handle LeetCode problems, Chronicle covers
 
 ## Pricing That Makes Sense
 
-**Chronicle vs. Competitors:**
+**Speechly vs. Competitors:**
 
-| Feature | Chronicle | Interview Coder | ULTRACODE |
+| Feature | Speechly | Interview Coder | ULTRACODE |
 |---------|----------------|-----------------|-----------|
 | **Price** | $29/month | $99+ | $899 lifetime |
 | **Device** | Mobile (undetectable) | Desktop (risky) | Desktop (risky) |
@@ -157,7 +157,7 @@ While tools like Interview Coder only handle LeetCode problems, Chronicle covers
 - **Cancel anytime** - no commitments
 
 ### Quick Setup (5 minutes)
-1. **Download** Chronicle from the App Store
+1. **Download** Speechly from the App Store
 2. **Upload your resume** and add personal details
 3. **Practice** with sample questions
 4. **Go ace your interview!**
@@ -184,7 +184,7 @@ While tools like Interview Coder only handle LeetCode problems, Chronicle covers
 
 ## The Future of Interview Preparation
 
-Chronicle isn't just about getting past interviews—it's about **leveling the playing field**. In a world where:
+Speechly isn't just about getting past interviews—it's about **leveling the playing field**. In a world where:
 
 - **Technical skills matter more than puzzle-solving**
 - **Authentic stories beat memorized scripts** 
@@ -195,9 +195,9 @@ We're building the interview assistant you deserve. One that knows you, protects
 
 ## Ready to Transform Your Interviews?
 
-Thousands of professionals have already landed their dream jobs with Chronicle. **Your next opportunity shouldn't be left to chance.**
+Thousands of professionals have already landed their dream jobs with Speechly. **Your next opportunity shouldn't be left to chance.**
 
-🚀 **[Download Chronicle](https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009)** and start your free trial today.
+🚀 **[Download Speechly](https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009)** and start your free trial today.
 
 ---
 

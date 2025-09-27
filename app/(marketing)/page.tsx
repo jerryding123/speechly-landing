@@ -207,7 +207,7 @@ const AppStoreBanner = () => {
       {/* Banner content remains the same */}
       <Stack direction="row" spacing="3" align="center" flex="1">
         <Image
-          src="/static/images/chroniclelogo.png"
+          src="/static/images/speechlylogo.png"
           width={32}
           height={32}
           alt="App Icon"
@@ -216,7 +216,7 @@ const AppStoreBanner = () => {
         <VStack align="flex-start" spacing="0">
           <HStack spacing="2" align="center">
             <Text color="white" fontWeight="bold" fontSize="sm">
-              Chronicle
+              Speechly
             </Text>
             <Text color="yellow.400" fontSize="xs" fontWeight="medium">
               4.9 / 5 ★
@@ -334,7 +334,7 @@ const HeroSection: React.FC = () => {
               <FallInPlace delay={0.4} fontWeight="medium">
                 <Text fontSize={{ base: "lg", md: "xl" }}>  {/* Slightly reduced */}
                   Ask <Em>any questions</Em> about your life
-                  <Br />with Chronicle Intelligence<Br />{' '}
+                  <Br />with Speechly Intelligence<Br />{' '}
                   Save. Search. Insights.
                   <Br></Br>
                   <Br></Br>
@@ -415,7 +415,7 @@ const HeroSection: React.FC = () => {
                   src="/static/screenshots/phone1.png"
                   width={280}
                   height={578}
-                  alt="Chronicle App Screenshot"
+                  alt="Speechly App Screenshot"
                   style={{
                     width: '100%',
                     maxWidth: '300px',
@@ -436,7 +436,7 @@ const HeroSection: React.FC = () => {
                     width="280"
                     height="578"
                     src="https://www.youtube.com/embed/BvSpz885TN4?autoplay=1&loop=1&mute=1&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&playlist=BvSpz885TN4&disablekb=1&fs=0"
-                    title="Chronicle Demo"
+                    title="Speechly Demo"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -479,7 +479,7 @@ const HeroSection: React.FC = () => {
             title: '99% Accuracy',
             icon: FiHeadphones,
             description:
-              'Chronicle uses the ranked No. 1 ASR technology for speech recognition.',
+              'Speechly uses the ranked No. 1 ASR technology for speech recognition.',
             iconPosition: 'left',
             delay: 0.8,
           },
@@ -499,7 +499,7 @@ const HeroSection: React.FC = () => {
 }
 
 const HighlightsSection = () => {
-  const { value, onCopy, hasCopied } = useClipboard('#chronicleapp')
+  const { value, onCopy, hasCopied } = useClipboard('#speechlyapp')
 
   return (
     <Highlights>
@@ -527,7 +527,7 @@ const HighlightsSection = () => {
                 shareyoursuccess
               </Text>{' '}
               <Text color="cyan.300" display="inline">
-                #chronicle
+                #speechly
               </Text>
             </Box>
             <IconButton
@@ -649,7 +649,7 @@ const FeaturesSection = () => {
           description: (
             <>
               <Br />
-              Chronicle helps you search and retrieve any information about your life
+              Speechly helps you search and retrieve any information about your life
             </>
           ),
           variant: 'inline',
@@ -660,7 +660,7 @@ const FeaturesSection = () => {
           description: (
             <>
               <Br />
-              Got a question about your life? Chronicle Intelligence searches your AI database and give you answers
+              Got a question about your life? Speechly Intelligence searches your AI database and give you answers
             </>
           ),
           variant: 'inline',

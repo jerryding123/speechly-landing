@@ -18,17 +18,17 @@ import { getAllPosts, BlogPostMeta } from '../../../lib/blog';
 export const dynamic = 'force-static';
 
 export const metadata = {
-  title: 'Interview Preparation Blog | Chronicle',
-  description: 'Expert interview strategies, AI preparation tips, and career insights. Learn how to ace technical and behavioral interviews with Chronicle\'s comprehensive guides.',
+  title: 'Interview Preparation Blog | Speechly',
+  description: 'Expert interview strategies, AI preparation tips, and career insights. Learn how to ace technical and behavioral interviews with Speechly\'s comprehensive guides.',
   keywords: 'interview preparation, AI interview assistant, technical interviews, behavioral interviews, job search tips, career advice',
   openGraph: {
-    title: 'Interview Preparation Blog | Chronicle',
+    title: 'Interview Preparation Blog | Speechly',
     description: 'Expert interview strategies, AI preparation tips, and career insights to help you land your dream job.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Interview Preparation Blog | Chronicle',
+    title: 'Interview Preparation Blog | Speechly',
     description: 'Expert interview strategies and AI preparation tips for job seekers.',
   },
 };
@@ -128,7 +128,7 @@ export default async function BlogPage() {
         <Container maxW="container.xl" py={12}>
           <VStack spacing={6} textAlign="center">
             <Heading as="h1" size="2xl" fontWeight="bold">
-              Chronicle Blog
+              Speechly Blog
             </Heading>
             <Text fontSize="xl" color="gray.600" _dark={{ color: 'gray.300' }} maxW="2xl">
               Expert interview strategies, AI-powered preparation tips, and career insights to help you land your dream job. Master technical and behavioral interviews with confidence.

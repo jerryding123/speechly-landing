@@ -3,7 +3,7 @@ import { HStack, Text } from '@chakra-ui/react'
 export default {
   title: 'Pricing',
   description:
-    'Chronicle is FREE to use',
+    'Speechly is FREE to use',
   plans: [
     {
       id: 'free',

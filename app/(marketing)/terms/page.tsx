@@ -11,11 +11,11 @@ export default function TermsPage() {
       <VStack spacing={6} align="stretch">
 
         <Text fontWeight="bold">
-          Welcome to Chronicle! Before you access our services, please read these Terms of Service.
+          Welcome to Speechly! Before you access our services, please read these Terms of Service.
         </Text>
 
         <Text>
-          Chronicle is a brand owned by Liberace AI (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). Liberace AI operates the Chronicle iOS application and provides related products and services (collectively, the &quot;Services&quot;). These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;you,&quot; &quot;your&quot;) and Liberace AI, governing your access to and use of the Services. You agree that by downloading, installing, or accessing the Services, you have read, understood, and agreed to be bound by these Terms. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS, THEN YOU ARE PROHIBITED FROM USING THE SERVICES AND MUST IMMEDIATELY DISCONTINUE USE.
+          Speechly is a brand owned by Liberace AI (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). Liberace AI operates the Speechly iOS application and provides related products and services (collectively, the &quot;Services&quot;). These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;you,&quot; &quot;your&quot;) and Liberace AI, governing your access to and use of the Services. You agree that by downloading, installing, or accessing the Services, you have read, understood, and agreed to be bound by these Terms. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS, THEN YOU ARE PROHIBITED FROM USING THE SERVICES AND MUST IMMEDIATELY DISCONTINUE USE.
         </Text>
         
         <Text fontWeight="bold">
@@ -29,7 +29,7 @@ export default function TermsPage() {
           
           <Text fontWeight="bold" mt={3}>1.1 Description of Services</Text>
           <Text>
-            Liberace AI provides Chronicle, an AI-powered iOS application that assists with job interview preparation and real-time interview support. The app records live interview questions and generates AI responses to help users during interviews. The Services include both free and premium subscription offerings, with the free version providing limited functionality. All audio processing happens on your device, and Chronicle does not control your device or make decisions on your behalf.
+            Liberace AI provides Speechly, an AI-powered iOS application that assists with job interview preparation and real-time interview support. The app records live interview questions and generates AI responses to help users during interviews. The Services include both free and premium subscription offerings, with the free version providing limited functionality. All audio processing happens on your device, and Speechly does not control your device or make decisions on your behalf.
           </Text>
           
           <Text fontWeight="bold" mt={3}>1.2 License Grant</Text>
@@ -50,7 +50,7 @@ export default function TermsPage() {
           
           <Text fontWeight="bold" mt={3}>2.2 Payment Terms</Text>
           <Text>
-            All payments and subscriptions are processed through Apple&apos;s App Store. The subscription includes full access to Chronicle features, automatic updates, and customer support. By subscribing to our paid services, you agree to the App Store&apos;s payment terms and authorize Apple to charge your chosen payment method. Subscription management, including cancellation, is handled through your Apple ID account settings.
+            All payments and subscriptions are processed through Apple&apos;s App Store. The subscription includes full access to Speechly features, automatic updates, and customer support. By subscribing to our paid services, you agree to the App Store&apos;s payment terms and authorize Apple to charge your chosen payment method. Subscription management, including cancellation, is handled through your Apple ID account settings.
           </Text>
         </Box>
         
@@ -100,7 +100,7 @@ export default function TermsPage() {
             WE DO NOT GUARANTEE THE ACCURACY, COMPLETENESS, OR EFFECTIVENESS OF INTERVIEW COACHING OR ANY AI-GENERATED CONTENT. YOU ARE RESPONSIBLE FOR YOUR OWN DECISIONS AND OUTCOMES BASED ON THE SERVICE&apos;S RECOMMENDATIONS. WE DO NOT GUARANTEE ANY INTERVIEW RESULTS, AND YOU WAIVE YOUR RIGHT TO SUE FOR ANY CONSEQUENCES OF USING THIS SERVICE.
           </Text>
           <Text mt={2}>
-            Chronicle is a tool to assist users with interview preparation but does not guarantee job offers, interview success, or career advancement. Any decisions based on the service&apos;s insights are solely your responsibility.
+            Speechly is a tool to assist users with interview preparation but does not guarantee job offers, interview success, or career advancement. Any decisions based on the service&apos;s insights are solely your responsibility.
           </Text>
           
           <Text fontWeight="bold" mt={3}>5.4 Arbitration Agreement</Text>

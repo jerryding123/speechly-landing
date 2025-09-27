@@ -8,8 +8,8 @@ import { Logo } from './logo'
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Chronicle',
-    description: 'Chronicle is the leading personal AI agent and database to store, retrieve and get insights on your personal life.',
+    title: 'Speechly',
+    description: 'Speechly is the leading personal AI agent and database to store, retrieve and get insights on your personal life.',
   } as NextSeoProps,
   termsUrl: '/terms',
   privacyUrl: '/privacy',
