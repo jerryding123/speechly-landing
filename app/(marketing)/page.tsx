@@ -44,6 +44,9 @@ import {
   FiGlobe,
   FiShield,
   FiHeadphones,
+  FiVolume2,
+  FiUser,
+  FiPlay,
 } from 'react-icons/fi'
 
 import * as React from 'react'
@@ -68,8 +71,8 @@ import pricing from '#data/pricing'
 import testimonials from '#data/testimonials'
 
 // export const metadata: Metadata = {
-//  title: 'Saas UI Landingspage',
-//  description: 'Free SaaS landingspage starter kit',
+//  title: 'Speechly - Natural Text to Speech',
+//  description: 'Convert any text to natural-sounding speech with AI voices',
 // }
 
 // Add this function to handle Download button clicks
@@ -323,19 +326,18 @@ const HeroSection: React.FC = () => {
                         },
                       }}
                     />
-                    Your
+                    #1 Text to
                   </Box>
-                  <Br /> Personal AI
-                  <Br /> Database
+                  <Br /> Speech Reader
                 </Box>
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
                 <Text fontSize={{ base: "lg", md: "xl" }}>  {/* Slightly reduced */}
-                  Ask <Em>any questions</Em> about your life
-                  <Br />with Speechly Intelligence<Br />{' '}
-                  Save. Search. Insights.
+                  Convert any text into <Em>natural-sounding speech</Em>
+                  <Br />with AI-powered voices<Br />{' '}
+                  <Em>Listen. Learn. Create.</Em>
                   <Br></Br>
                   <Br></Br>
                 </Text>
@@ -347,13 +349,13 @@ const HeroSection: React.FC = () => {
               <HStack pt="4" pb="12" spacing="8">
                 <Image
                   src="/static/images/openailogo.png"
-                  width={95}
+                  width={135}
                   height={20}
                   alt="OpenAI Logo"
                 />
                 <Image
                   src="/static/images/whisperlogo.png"
-                  width={105}
+                  width={150}
                   height={20}
                   alt="Whisper Logo"
                 />
@@ -469,25 +471,25 @@ const HeroSection: React.FC = () => {
         }}
         features={[
           {
-            title: '1s Responses',
+            title: 'Instant Audio',
             icon: FiZap,
-            description: 'Copilot generates responses instantly, ensuring you always have the answer in an interview.',
+            description: 'Generate natural-sounding speech from text in seconds with lightning-fast processing.',
             iconPosition: 'left',
             delay: 0.6,
           },
           {
-            title: '99% Accuracy',
-            icon: FiHeadphones,
+            title: '20+ Voices',
+            icon: FiUser,
             description:
-              'Speechly uses the ranked No. 1 ASR technology for speech recognition.',
+              'Choose from over 100 premium AI voices across different languages, accents, and speaking styles.',
             iconPosition: 'left',
             delay: 0.8,
           },
           {
-            title: '99+ Languages',
+            title: '50+ Languages',
             icon: FiGlobe,
             description:
-              'Supports over 99 languages, and any accents. Copilot automatically generates responses in your language.',
+              'Support for over 50 languages with native pronunciation and natural intonation patterns.',
             iconPosition: 'left',
             delay: 1,
           },
@@ -503,12 +505,12 @@ const HighlightsSection = () => {
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Accurate. Instant. Tailored.">
+      <HighlightsItem colSpan={[1, null, 2]} title="Natural. Professional. Accessible.">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Ace any technical or behavioral questions with <Em>our most intelligent Copilot model</Em>.
-            Upload your resume, job details and more for <Em>full Copilot customization</Em>.
-            Choose your desired Copilot answer style, and review all your past interviews in one place.
+            Transform any written content into <Em>professional-quality speech</Em> with our advanced AI technology.
+            Perfect for <Em>audiobooks, presentations, accessibility</Em>, content creation, and learning.
+            Customize speech speed, tone, and style to match your exact needs.
           </Text>
 
           <Flex
@@ -524,7 +526,7 @@ const HighlightsSection = () => {
           >
             <Box>
               <Text color="yellow.400" display="inline">
-                shareyoursuccess
+                listentolife
               </Text>{' '}
               <Text color="cyan.300" display="inline">
                 #speechly
@@ -532,7 +534,7 @@ const HighlightsSection = () => {
             </Box>
             <IconButton
               icon={hasCopied ? <FiCheck /> : <FiCopy />}
-              aria-label="Copy install command"
+              aria-label="Copy hashtag"
               onClick={onCopy}
               variant="ghost"
               ms="4"
@@ -542,44 +544,43 @@ const HighlightsSection = () => {
           </Flex>
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Voice Recognition">
+      <HighlightsItem title="Premium Quality">
         <Text color="muted" fontSize="lg">
-          Ranked 1st in speech recognition worldwide, Whisper technology is ranked the world&apos;s most accurate AI speech recognition (ASR), capable of detecting almost all languages and accents.
+          Industry-leading AI voices that sound completely natural, with proper pronunciation, emphasis, and emotional expression for professional results.
         </Text>
       </HighlightsItem>
-      <HighlightsItem title="Full Privacy">
+      <HighlightsItem title="Privacy First">
         <Text color="muted" fontSize="lg">
-          All audio processing happens and stays on-device. No audio is sent to servers. All API calls are anonymous and encrypted to industry standards.
+          Your text and audio files are processed securely with end-to-end encryption. No data is stored on our servers after processing.
         </Text>
       </HighlightsItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
-        title="Get Ahead of Your Peers"
+        title="Perfect for Every Use Case"
       >
         <Text color="muted" fontSize="lg">
-          We take care of the trouble of recruiting and interviewing, so you can focus on what really matters: growing your skillset and career.
+          Whether you're creating content, improving accessibility, or learning languages, Speechly adapts to your specific needs with customizable voices and settings.
         </Text>
         <Wrap mt="8">
           {[
-            'consulting',
-            'product management',
-            'data science',
-            'software engineering',
-            'graphic design',
-            'sales',
-            'recruiting',
-            'customer success',
-            'finance',
-            'operations',
-            'legal',
+            'audiobooks',
+            'presentations',
+            'e-learning',
+            'podcasts',
+            'accessibility',
+            'language learning',
+            'content creation',
+            'voiceovers',
+            'meditation',
+            'news reading',
+            'storytelling',
+            'tutorials',
+            'announcements',
             'marketing',
-            'public relations',
-            'business development',
-            'human resources',
-            'project management',
-            'strategy',
-            'analytics',
-
+            'training materials',
+            'documentation',
+            'entertainment',
+            'education',
           ].map((value) => (
             <Tag
               key={value}
@@ -612,13 +613,13 @@ const FeaturesSection = () => {
             fontSize: { base: '2xl', md: '3xl', lg: '4xl' }
           }}
         >
-          How to Use
+          How It Works
           <Br />
         </Heading>
       }
       description={
         <>
-          Your personal and private AI database
+          Three simple steps to natural speech
           <Br />
         </>
       }
@@ -633,34 +634,34 @@ const FeaturesSection = () => {
       }}
       features={[
         {
-          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Save</Text>,
-          icon: FiSmile,
+          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Type or Paste</Text>,
+          icon: FiTerminal,
           description: (
             <>
               <Br />
-              Save all your recordings, photos, notes, documents, events, reminders and more...
+              Enter your text, upload documents, or paste content from anywhere. Supports all major file formats.
             </>
           ),
           variant: 'inline',
         },
         {
-          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Search</Text>,
-          icon: FiBriefcase,
+          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Choose Voice</Text>,
+          icon: FiUser,
           description: (
             <>
               <Br />
-              Speechly helps you search and retrieve any information about your life
+              Select from 20+ premium voices in different languages, accents, and speaking styles.
             </>
           ),
           variant: 'inline',
         },
         {
-          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Insights</Text>,
-          icon: FiBox,
+          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Generate & Download</Text>,
+          icon: FiVolume2,
           description: (
             <>
               <Br />
-              Got a question about your life? Speechly Intelligence searches your AI database and give you answers
+              Get your natural-sounding audio in seconds. Download as MP3, WAV, or other formats.
             </>
           ),
           variant: 'inline',
