@@ -559,7 +559,7 @@ const HighlightsSection = () => {
         title="Perfect for Every Use Case"
       >
         <Text color="muted" fontSize="lg">
-          Whether you're creating content, improving accessibility, or learning languages, Speechly adapts to your specific needs with customizable voices and settings.
+          Whether you&apos;re creating content, improving accessibility, or learning languages, Speechly adapts to your specific needs with customizable voices and settings.
         </Text>
         <Wrap mt="8">
           {[
