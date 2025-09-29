@@ -334,10 +334,9 @@ const HeroSection: React.FC = () => {
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                <Text fontSize={{ base: "xl", md: "2xl" }}>  {/* Slightly reduced */}
+                <Text fontSize={{ base: "2xl", md: "2xl" }}>  {/* Slightly reduced */}
                   Convert any text into audio with
                   <Br /><Em>natural-sounding voices</Em><Br />{' '}
-                  <Br></Br>
                   <Br></Br>
                 </Text>
               </FallInPlace>

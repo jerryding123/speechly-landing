@@ -15,7 +15,7 @@ export default function TermsPage() {
         </Text>
 
         <Text>
-          Speechly is a brand owned by Liberace AI (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). Liberace AI operates the Speechly iOS application and provides related products and services (collectively, the &quot;Services&quot;). These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;you,&quot; &quot;your&quot;) and Liberace AI, governing your access to and use of the Services. You agree that by downloading, installing, or accessing the Services, you have read, understood, and agreed to be bound by these Terms. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS, THEN YOU ARE PROHIBITED FROM USING THE SERVICES AND MUST IMMEDIATELY DISCONTINUE USE.
+          Speechly is a brand owned by Liberace Pte. Ltd. (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). Liberace Pte. Ltd. operates the Speechly iOS application and provides related products and services (collectively, the &quot;Services&quot;). These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;you,&quot; &quot;your&quot;) and Liberace Pte. Ltd., governing your access to and use of the Services. You agree that by downloading, installing, or accessing the Services, you have read, understood, and agreed to be bound by these Terms. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS, THEN YOU ARE PROHIBITED FROM USING THE SERVICES AND MUST IMMEDIATELY DISCONTINUE USE.
         </Text>
         
         <Text fontWeight="bold">
@@ -29,12 +29,12 @@ export default function TermsPage() {
           
           <Text fontWeight="bold" mt={3}>1.1 Description of Services</Text>
           <Text>
-            Liberace AI provides Speechly, an AI-powered iOS application that converts written text into natural-sounding speech. The app supports listening to documents, articles, notes, and other text-based content in multiple voices and languages. The Services include both free and premium subscription offerings, with the free version providing limited functionality. All audio playback is generated on your device, and Speechly does not control your device or make decisions on your behalf.
+            Liberace Pte. Ltd. provides Speechly, an AI-powered iOS application that converts written text into natural-sounding speech. The app supports listening to documents, articles, notes, and other text-based content in multiple voices and languages. The Services include both free and premium subscription offerings, with the free version providing limited functionality. All audio playback is generated on your device, and Speechly does not control your device or make decisions on your behalf.
           </Text>
           
           <Text fontWeight="bold" mt={3}>1.2 License Grant</Text>
           <Text>
-            Subject to your compliance with these Terms, Liberace AI grants you a non-exclusive, non-transferable, revocable, limited license to download, install, and use the Services for your personal use. Your right to use the Services is conditional upon your compliance with these Terms. You shall not modify, distribute, sell, lease, loan, or create derivative works based on the Services or any part thereof. The Services are licensed, not sold, to you.
+            Subject to your compliance with these Terms, Liberace Pte. Ltd. grants you a non-exclusive, non-transferable, revocable, limited license to download, install, and use the Services for your personal use. Your right to use the Services is conditional upon your compliance with these Terms. You shall not modify, distribute, sell, lease, loan, or create derivative works based on the Services or any part thereof. The Services are licensed, not sold, to you.
           </Text>
         </Box>
         
@@ -75,7 +75,7 @@ export default function TermsPage() {
           </Heading>
           
           <Text>
-            All content you input into the service remains owned by you, but the software, branding, algorithms, and infrastructure remain the intellectual property of Liberace AI. We reserve all rights not expressly granted to you in and to the Services. Any breach of our intellectual property rights will constitute a material breach of our Terms and your right to use our Services will terminate immediately.
+            All content you input into the service remains owned by you, but the software, branding, algorithms, and infrastructure remain the intellectual property of Liberace Pte. Ltd.. We reserve all rights not expressly granted to you in and to the Services. Any breach of our intellectual property rights will constitute a material breach of our Terms and your right to use our Services will terminate immediately.
           </Text>
         </Box>
         
