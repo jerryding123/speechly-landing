@@ -29,12 +29,12 @@ export default function TermsPage() {
           
           <Text fontWeight="bold" mt={3}>1.1 Description of Services</Text>
           <Text>
-            Liberace AI provides Speechly, an AI-powered iOS application that assists with job interview preparation and real-time interview support. The app records live interview questions and generates AI responses to help users during interviews. The Services include both free and premium subscription offerings, with the free version providing limited functionality. All audio processing happens on your device, and Speechly does not control your device or make decisions on your behalf.
+            Liberace AI provides Speechly, an AI-powered iOS application that converts written text into natural-sounding speech. The app supports listening to documents, articles, notes, and other text-based content in multiple voices and languages. The Services include both free and premium subscription offerings, with the free version providing limited functionality. All audio playback is generated on your device, and Speechly does not control your device or make decisions on your behalf.
           </Text>
           
           <Text fontWeight="bold" mt={3}>1.2 License Grant</Text>
           <Text>
-            Subject to your compliance with these Terms, Liberace AI grants you a non-exclusive, non-transferable, revocable, limited license to download, install, and use the Services for your personal interview preparation. Your right to use the Services is conditional upon your compliance with these Terms. You shall not modify, distribute, sell, lease, loan, or create derivative works based on the Services or any part thereof. The Services are licensed, not sold, to you.
+            Subject to your compliance with these Terms, Liberace AI grants you a non-exclusive, non-transferable, revocable, limited license to download, install, and use the Services for your personal use. Your right to use the Services is conditional upon your compliance with these Terms. You shall not modify, distribute, sell, lease, loan, or create derivative works based on the Services or any part thereof. The Services are licensed, not sold, to you.
           </Text>
         </Box>
         
@@ -66,8 +66,7 @@ export default function TermsPage() {
           <Text ml={5}>• Use the service for any illegal purposes</Text>
           <Text ml={5}>• Interfere with or disrupt the service</Text>
           <Text ml={5}>• Use the Services in a manner that violates any applicable local, state, national, or international law or regulation</Text>
-          <Text ml={5}>• Use the Services to misrepresent your qualifications or abilities in employment scenarios</Text>
-          <Text ml={5}>• Use the Services in violation of any employer policies or interview protocols that explicitly forbid external assistance</Text>
+          <Text ml={5}>• Use the Services to generate or share harmful, misleading, or unlawful content</Text>
         </Box>
         
         <Box>
@@ -76,7 +75,7 @@ export default function TermsPage() {
           </Heading>
           
           <Text>
-            All content generated using our service during your use is owned by you, but the software, branding, algorithms, and infrastructure remain the intellectual property of Liberace AI. We reserve all rights not expressly granted to you in and to the Services. Any breach of our intellectual property rights will constitute a material breach of our Terms and your right to use our Services will terminate immediately.
+            All content you input into the service remains owned by you, but the software, branding, algorithms, and infrastructure remain the intellectual property of Liberace AI. We reserve all rights not expressly granted to you in and to the Services. Any breach of our intellectual property rights will constitute a material breach of our Terms and your right to use our Services will terminate immediately.
           </Text>
         </Box>
         
@@ -97,10 +96,10 @@ export default function TermsPage() {
           
           <Text fontWeight="bold" mt={3}>5.3 No Guarantee of Results</Text>
           <Text>
-            WE DO NOT GUARANTEE THE ACCURACY, COMPLETENESS, OR EFFECTIVENESS OF INTERVIEW COACHING OR ANY AI-GENERATED CONTENT. YOU ARE RESPONSIBLE FOR YOUR OWN DECISIONS AND OUTCOMES BASED ON THE SERVICE&apos;S RECOMMENDATIONS. WE DO NOT GUARANTEE ANY INTERVIEW RESULTS, AND YOU WAIVE YOUR RIGHT TO SUE FOR ANY CONSEQUENCES OF USING THIS SERVICE.
+            WE DO NOT GUARANTEE THE ACCURACY, COMPLETENESS, OR EFFECTIVENESS OF ANY AI-GENERATED AUDIO OR TEXT-TO-SPEECH OUTPUT. YOU ARE RESPONSIBLE FOR YOUR OWN DECISIONS AND OUTCOMES BASED ON THE SERVICE&apos;S OUTPUT. WE DO NOT GUARANTEE ANY SPECIFIC RESULTS FROM USING THE SERVICE, AND YOU WAIVE YOUR RIGHT TO SUE FOR ANY CONSEQUENCES OF USING THIS SERVICE.
           </Text>
           <Text mt={2}>
-            Speechly is a tool to assist users with interview preparation but does not guarantee job offers, interview success, or career advancement. Any decisions based on the service&apos;s insights are solely your responsibility.
+            Speechly is a tool to assist users with text-to-speech playback but does not guarantee comprehension, retention, accessibility compliance, or professional outcomes. Any decisions based on the service&apos;s output are solely your responsibility.
           </Text>
           
           <Text fontWeight="bold" mt={3}>5.4 Arbitration Agreement</Text>
