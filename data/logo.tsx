@@ -6,16 +6,17 @@ export const Logo: React.FC<HTMLChakraProps<'div'>> = (props) => {
   return (
     <chakra.div {...props}>
       <Flex align="center">
-        <Image 
-          src="/static/images/speechlylogo.png" 
-          alt="Speechly Logo" 
+        <Image
+          src="/static/images/speechlylogo.png"
+          alt="Speechly Logo"
           maxHeight="32px"
         />
-        <Text 
-          ml={3} 
-          fontSize="xl" 
-          fontWeight="bold" 
+        <Text
+          ml={3}
+          fontSize="xl"
+          fontWeight="regular"
           color={textColor}
+          fontFamily="Georgia, serif"
         >
           Speechly
         </Text>
