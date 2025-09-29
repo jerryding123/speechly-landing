@@ -335,9 +335,8 @@ const HeroSection: React.FC = () => {
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
                 <Text fontSize={{ base: "lg", md: "xl" }}>  {/* Slightly reduced */}
-                  Convert any text into <Em>natural-sounding speech</Em>
-                  <Br />with AI-powered voices<Br />{' '}
-                  <Em>Listen. Learn. Create.</Em>
+                  Convert any text into audio
+                  <Br />with <Em>natural-sounding voices</Em><Br />{' '}
                   <Br></Br>
                   <Br></Br>
                 </Text>
@@ -471,14 +470,14 @@ const HeroSection: React.FC = () => {
         }}
         features={[
           {
-            title: 'Instant Audio',
+            title: 'Instant Speech',
             icon: FiZap,
             description: 'Generate natural-sounding speech from text in seconds with lightning-fast processing.',
             iconPosition: 'left',
             delay: 0.6,
           },
           {
-            title: '20+ Voices',
+            title: 'Natural Voices',
             icon: FiUser,
             description:
               'Choose from over 100 premium AI voices across different languages, accents, and speaking styles.',
@@ -486,10 +485,10 @@ const HeroSection: React.FC = () => {
             delay: 0.8,
           },
           {
-            title: '50+ Languages',
+            title: 'Upload & Listen',
             icon: FiGlobe,
             description:
-              'Support for over 50 languages with native pronunciation and natural intonation patterns.',
+              'Supports file types including text, doc, PDFs, images and many more.',
             iconPosition: 'left',
             delay: 1,
           },
@@ -619,7 +618,7 @@ const FeaturesSection = () => {
       }
       description={
         <>
-          Three simple steps to natural speech
+          3 simple steps to natural speech
           <Br />
         </>
       }
@@ -634,12 +633,12 @@ const FeaturesSection = () => {
       }}
       features={[
         {
-          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Type or Paste</Text>,
+          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Type or Upload</Text>,
           icon: FiTerminal,
           description: (
             <>
               <Br />
-              Enter your text, upload documents, or paste content from anywhere. Supports all major file formats.
+              Enter text or upload documents, photos and more. Supports all major file formats.
             </>
           ),
           variant: 'inline',
@@ -650,18 +649,18 @@ const FeaturesSection = () => {
           description: (
             <>
               <Br />
-              Select from 20+ premium voices in different languages, accents, and speaking styles.
+              Select from premium human-like voices in different languages, accents, and speaking styles.
             </>
           ),
           variant: 'inline',
         },
         {
-          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Generate & Download</Text>,
+          title: <Text fontSize={["xl", "2xl", "3xl"]} fontWeight="bold" mb={3}>Listen</Text>,
           icon: FiVolume2,
           description: (
             <>
               <Br />
-              Get your natural-sounding audio in seconds. Download as MP3, WAV, or other formats.
+              Generate natural-sounding audio in seconds. Save and playback anytime.
             </>
           ),
           variant: 'inline',

@@ -2,68 +2,68 @@ export default {
   title: '#speechlyapp: why users love it',
   items: [
     {
-      name: 'jordan.tech',
+      name: 'tech_guru04',
       description: (
         <span className="stars">★★★★★</span>
       ),
       children: (
         <>
-          I dumped all my notes, docs, and photos in here and now I can actually find stuff. AI search is insane🔥.
+          I load my PDFs and docs into Speechly and just listen on the go. Way easier than forcing myself to read after work🔥.
         </>
       ),
     },
     {
-      name: 'Anonymous',
+      name: 'reader_at_heart',
       description: (
         <span className="stars">★★★★★</span>
       ),
       children: (
         <>
-          No more digging through folders, I just ask Speechly and it pulls up what I need.<br /><br />It lets me store all my important files and key moments in one place. Can't recommend it enough.
+          No more staring at long articles, I hit play and let Speechly read it to me.<br /><br />Great for commuting or when I want to give my eyes a break. Can't recommend it enough.
         </>
       ),
     },
     {
-      name: 'cliff_consulting',
+      name: 'cliffnotes_consult',
       description: (
         <span className="stars">★★★★★</span>
       ),
       children: (
         <>
-          Amazing for keeping track of everything from school and work. Found my old notes and documents in seconds.
+          Perfect for work reports and study material. I catch up on docs while walking my dog. Total productivity boost.
         </>
       ),
     },
     {
-      name: 'RosieW_92',
+      name: 'rosie_writes',
       description: (
         <span className="stars">★★★★★</span>
       ),
       children: (
         <>
-          Honestly, it works better than expected. You can ask it about an event 10 years ago and it will find it.<br /><br />Thank you for creating such an amazing app!
+          Honestly, it sounds more natural than I expected. I can listen to books, notes, even web pages.<br /><br />Thank you for building such an amazing TTS app!
         </>
       ),
     },
     {
-      name: 'Anonymous',
-      description: (
-        <span className="stars">★★★★☆</span>
-      ),
-      children: (
-        <>
-          Love how it understands my voice notes even with my accent. Super useful.
-        </>
-      ),
-    },
-    {
-      name: 'sophie_d',
+      name: 'audiophile23',
       description: (
         <span className="stars">★★★★★</span>
       ),
       children: (
         <>
-          Speechly remembers everything so I don’t have to. I don't have to organize anything again, I just dump it into one app.
+          Love how it pronounces things correctly even with my local names. Super useful for accessibility.
+        </>
+      ),
+    },
+    {
+      name: 'charlied',
+      description: (
+        <span className="stars">★★★★★</span>
+      ),
+      children: (
+        <>
+          Speechly turns everything I need to read into audio. Now I "read" while cooking, driving, or at the gym. Absolute game changer.
         </>
       ),
     },
