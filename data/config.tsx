@@ -37,10 +37,6 @@ seo: {
         label: 'Help',
       },
       {
-        label: 'Blog',
-        href: '/blog',
-      },
-      {
         label: 'Download',
         href: '/download/hero',  // Changed from direct App Store URL
         variant: 'primary',
