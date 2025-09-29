@@ -197,7 +197,7 @@ We're building the interview assistant you deserve. One that knows you, protects
 
 Thousands of professionals have already landed their dream jobs with Speechly. **Your next opportunity shouldn't be left to chance.**
 
-🚀 **[Download Speechly](https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009)** and start your free trial today.
+🚀 **[Download Speechly](https://apps.apple.com/us/app/speechly-text-to-voice/id6753100689)** and start your free trial today.
 
 ---
 

@@ -272,7 +272,7 @@ Your next interview could change your life. **Don't leave it to chance with risk
 
 **Ready to interview smarter and safer?** 
 
-🚀 **[Download Speechly](https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009)** - Your undetectable AI interview copilot
+🚀 **[Download Speechly](https://apps.apple.com/us/app/speechly-text-to-voice/id6753100689)** - Your undetectable AI interview copilot
 
 📧 **Questions?** Contact us at [support@liberaceai.com](mailto:support@liberaceai.com)
 

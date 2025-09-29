@@ -12,43 +12,43 @@ export default {
       price: 'Free',
       features: [
         {
-          title: '3 Sessions Weekly',
+          title: '2 Free Text-to-Speech Files',
         },
         {
-          title: '10 Copilot Use Weekly',
+          title: 'Premium Human Voices',
         },
         {
-          title: 'Normal Copilot Models',
+          title: 'Normal Intelligence Models',
         },
       ],
       action: {
-        href: 'https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009',
+        href: 'https://apps.apple.com/us/app/speechly-text-to-voice/id6753100689',
       },
     },
     {
-      id: 'weekly',
-      title: 'Weekly',
+      id: 'monthly',
+      title: 'Monthly',
       description: 'Popular',
-      price: '$9.99 / month',
+      price: '$14.99 / month',
       isRecommended: true,
       features: [
         {
-          title: '1,000 Copilot Use Weekly',
+          title: 'Unlimited Text-to-Speech',
         },
         {
-          title: 'Unlimited Sessions Weekly',
+          title: 'Most Premium Human Voices',
         },
         {
-          title: 'Most Powerful Copilot Models',
+          title: 'Most Powerful Intelligence Models',
         },
         {
-          title: 'Full Profile & Documents',
+          title: 'Documents, PDFs, Notes, Photos',
         },
         {
-          title: 'Full Copilot Customization',
+          title: 'Unlimited File Uploads',
         },
         {
-          title: 'Unlimited Interview History',
+          title: 'Unlimited File History',
         },
         {
           title: 'Priority Customer Support',
@@ -60,32 +60,32 @@ export default {
         },
       ],
       action: {
-        href: 'https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009',
+        href: 'https://apps.apple.com/us/app/speechly-text-to-voice/id6753100689',
       },
     },
     {
       id: 'yearly',
       title: 'Yearly',
       description: 'Best Value',
-      price: '$4.99 / month',
+      price: '$9.99 / month',
       features: [
         {
-          title: '1,000 Copilot Use Weekly',
+          title: 'Unlimited Text-to-Speech',
         },
         {
-          title: 'Unlimited Sessions Weekly',
+          title: 'Most Premium Human Voices',
         },
         {
-          title: 'Most Powerful Copilot Models',
+          title: 'Most Powerful Intelligence Models',
         },
         {
-          title: 'Full Profile & Documents',
+          title: 'Documents, PDFs, Notes, Photos',
         },
         {
-          title: 'Full Copilot Customization',
+          title: 'Unlimited File Uploads',
         },
         {
-          title: 'Unlimited Interview History',
+          title: 'Unlimited File History',
         },
         {
           title: 'Priority Customer Support',
@@ -97,7 +97,7 @@ export default {
         },
       ],
       action: {
-        href: 'https://apps.apple.com/us/app/interview-pilot-ai-copilot/id6743263009',
+        href: 'https://apps.apple.com/us/app/speechly-text-to-voice/id6753100689',
       },
     },
   ],
