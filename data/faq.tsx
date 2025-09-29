@@ -4,8 +4,8 @@ const faq = {
   title: 'Frequently asked questions',
   items: [
     {
-      q: 'Is Speechly free to use?',
-      a: 'Yes! Speechly is free to use with full access to all text-to-speech features.',
+      q: 'Is Speechly free to try?',
+      a: 'Yes! Speechly is free for you to try with full access to all text-to-speech features.',
     },
     {
       q: 'Is Speechly private and safe to use?',

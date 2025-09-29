@@ -3,7 +3,7 @@ import { HStack, Text } from '@chakra-ui/react'
 export default {
   title: 'Pricing',
   description:
-    'Speechly is FREE to use',
+    'Simple, Open Pricing',
   plans: [
     {
       id: 'free',
