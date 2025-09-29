@@ -7,10 +7,11 @@ import { Logo } from './logo'
 
 const siteConfig = {
   logo: Logo,
-  seo: {
-    title: 'Speechly',
-    description: 'Speechly is the leading personal AI agent and database to store, retrieve and get insights on your personal life.',
-  } as NextSeoProps,
+seo: {
+  title: 'Speechly',
+  description: 'Speechly is the No.1 Text-to-Speech app to turn any text, file and more into natural-sounding audio. Listen anywhere, anytime.',
+} as NextSeoProps,
+
   termsUrl: '/terms',
   privacyUrl: '/privacy',
   header: {
@@ -67,19 +68,19 @@ const siteConfig = {
         label: 'Privacy Policy',
       },
       {
-        href: 'https://linkedin.com/company/interview-pilot',
+        href: 'https://linkedin.com/company/speechly-text-to-speech',
         label: <FaLinkedinIn size="18" />,
       },
       {
-        href: 'https://x.com/interview_pilot',
+        href: 'https://x.com/',
         label: <FaTwitter size="18" />,
       },
       {
-        href: 'https://www.tiktok.com/@interview_pilot',
+        href: 'https://www.tiktok.com/',
         label: <FaTiktok size="18" />,
       },
       {
-        href: 'https://www.instagram.com/interview_pilot?igsh=MWlxdXBraDA3MTBhcQ%3D%3D&utm_source=qr',
+        href: 'https://www.instagram.com/',
         label: <FaInstagram size="18" />,
       },
     ],

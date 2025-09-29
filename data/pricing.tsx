@@ -55,7 +55,7 @@ export default {
         },
         null,
         {
-          title: 'Promotion: Get 1,000 Copilot use weekly for a limited time!',
+          title: 'Promotion: Get unlimited Speechly use for a limited time!',
           iconColor: 'green.500',
         },
       ],
@@ -92,7 +92,7 @@ export default {
         },
         null,
         {
-          title: 'Promotion: Get 1,000 Copilot use weekly for a limited time!',
+          title: 'Promotion: Get unlimited Speechly use for a limited time!',
           iconColor: 'green.500',
         },
       ],

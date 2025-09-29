@@ -334,9 +334,9 @@ const HeroSection: React.FC = () => {
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                <Text fontSize={{ base: "lg", md: "xl" }}>  {/* Slightly reduced */}
-                  Convert any text into audio
-                  <Br />with <Em>natural-sounding voices</Em><Br />{' '}
+                <Text fontSize={{ base: "xl", md: "2xl" }}>  {/* Slightly reduced */}
+                  Convert any text into audio with
+                  <Br /><Em>natural-sounding voices</Em><Br />{' '}
                   <Br></Br>
                   <Br></Br>
                 </Text>
@@ -480,7 +480,7 @@ const HeroSection: React.FC = () => {
             title: 'Natural Voices',
             icon: FiUser,
             description:
-              'Choose from over 100 premium AI voices across different languages, accents, and speaking styles.',
+              'Choose from premium voices across different languages, accents, and speaking styles.',
             iconPosition: 'left',
             delay: 0.8,
           },
