@@ -20,7 +20,11 @@
       "#components/*": ["./components/*"],
       "#hooks/*": ["./hooks/*"],
       "#data/*": ["./data/*"],
-      "#theme": ["./theme"]
+      "#lib/*": ["./lib/*"],
+      "#theme": ["./theme"],
+      "#theme/*": ["./theme/*"],
+      "#constants": ["./constants"],
+      "#constants/*": ["./constants/*"]
     },
     "plugins": [
       {

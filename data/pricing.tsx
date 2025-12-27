@@ -1,9 +1,9 @@
-import { HStack, Text } from '@chakra-ui/react'
+import { APP_STORE_LINKS } from '#constants'
 
 export default {
+  id: 'pricing',
   title: 'Pricing',
-  description:
-    'Simple, Open Pricing',
+  description: 'Simple, Open Pricing',
   plans: [
     {
       id: 'free',
@@ -22,7 +22,7 @@ export default {
         },
       ],
       action: {
-        href: 'https://apps.apple.com/us/app/speechly-text-to-voice/id6753100689',
+        href: APP_STORE_LINKS.ios,
       },
     },
     {
@@ -60,7 +60,7 @@ export default {
         },
       ],
       action: {
-        href: 'https://apps.apple.com/us/app/speechly-text-to-voice/id6753100689',
+        href: APP_STORE_LINKS.ios,
       },
     },
     {
@@ -97,7 +97,7 @@ export default {
         },
       ],
       action: {
-        href: 'https://apps.apple.com/us/app/speechly-text-to-voice/id6753100689',
+        href: APP_STORE_LINKS.ios,
       },
     },
   ],

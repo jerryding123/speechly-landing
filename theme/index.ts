@@ -4,42 +4,37 @@ import { theme as baseTheme } from '@saas-ui/react'
 import components from './components'
 import { fontSizes } from './foundations/typography'
 
-// Define your custom colors
 const colors = {
   primary: {
-    50: '#e6fffa',
-    100: '#b2f5ea',
-    200: '#81e6d9',
-    300: '#4fd1c7',
-    400: '#38b2ac',
-    500: '#319795', // Main teal color
-    600: '#2c7a7b',
-    700: '#285e61',
-    800: '#234e52',
-    900: '#1d4044',
+    50: '#fff9db',
+    100: '#ffefaf',
+    200: '#ffe57f',
+    300: '#ffda4e',
+    400: '#ffd01e',
+    500: '#e6b800',
+    600: '#b38f00',
+    700: '#806600',
+    800: '#4d3d00',
+    900: '#1a1400',
   },
-  // You can keep or modify other colors as needed
 }
 
-// Customize the button component
 const customComponents = {
   ...components,
   Button: {
-    // Extend the current button styles
     variants: {
       primary: {
         bg: 'primary.500',
-        color: 'white', // Changed to white for better contrast with teal
+        color: 'black',
         _hover: {
           bg: 'primary.600',
-          color: 'white', // Maintain white text on hover
+          color: 'black',
         },
         _active: {
           bg: 'primary.700',
-          color: 'white', // Maintain white text when active
+          color: 'black',
         },
       },
-      // You can also customize other button variants here if needed
     },
   },
 }
@@ -69,7 +64,7 @@ export const theme = extendTheme(
       body: 'Inter Variable, Inter, sans-serif',
     },
     fontSizes,
-    components: customComponents, // Use the extended components
+    components: customComponents,
   },
   baseTheme,
 )

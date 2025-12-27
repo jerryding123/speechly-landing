@@ -16,8 +16,8 @@ import {
   ButtonLink,
   ButtonLinkProps,
 } from '#components/button-link/button-link'
-import { BackgroundGradient } from '#components/gradients/background-gradient'
 import { Section, SectionProps, SectionTitle } from '#components/section'
+import { APP_STORE_LINKS } from '#constants'
 
 export interface PricingPlan {
   id: string
@@ -32,60 +32,99 @@ export interface PricingPlan {
 export interface PricingProps extends SectionProps {
   description: React.ReactNode
   plans: Array<PricingPlan>
+  align?: 'left' | 'center' | { base: 'center'; md: 'left' }
 }
 
 export const Pricing: React.FC<PricingProps> = (props) => {
-  const { children, plans, title, description, ...rest } = props
+  const { children, plans, title, description, align, ...rest } = props
+
+  // Platform detection
+  const [platform, setPlatform] = React.useState<'ios' | 'android' | 'desktop'>('desktop')
+
+  React.useEffect(() => {
+    const userAgent = navigator.userAgent || navigator.vendor || (window as any).opera
+    const isIOS = /iPad|iPhone|iPod/.test(userAgent) && !(window as any).MSStream
+    const isAndroid = /android/i.test(userAgent)
+
+    if (isIOS) {
+      setPlatform('ios')
+    } else if (isAndroid) {
+      setPlatform('android')
+    } else {
+      setPlatform('desktop')
+    }
+  }, [])
+
+  // Get platform-specific href
+  const getPlatformHref = (originalHref?: string | object) => {
+    if (platform === 'android') {
+      return APP_STORE_LINKS.android
+    }
+    if (typeof originalHref === 'string') {
+      return originalHref
+    }
+    return APP_STORE_LINKS.ios
+  }
+
   return (
-    <Section id="pricing" pos="relative" {...rest}>
-      <BackgroundGradient height="100%" />
-      <Box zIndex="2" pos="relative">
-        <SectionTitle title={title} description={description}></SectionTitle>
-        <SimpleGrid columns={[1, null, 3]} spacing={4}>
-          {plans?.map((plan) => (
-            <PricingBox
-              key={plan.id}
-              title={plan.title}
-              description={plan.description}
-              price={plan.price}
-              sx={
-                plan.isRecommended
-                  ? {
+    <Section id="pricing" {...rest}>
+      <SectionTitle
+        title={title}
+        description={description}
+        mb={8}
+        pos="relative"
+        zIndex={1}
+      />
+      <SimpleGrid columns={[1, null, 3]} spacing={4}>
+        {plans?.map((plan) => (
+          <PricingBox
+            key={plan.id}
+            title={plan.title}
+            description={plan.description}
+            price={plan.price}
+            sx={
+              plan.isRecommended
+                ? {
+                    borderColor: 'primary.500',
+                    boxShadow: '0 6px 30px rgba(0, 0, 0, 0.2)',
+                    _dark: {
                       borderColor: 'primary.500',
-                      _dark: {
-                        borderColor: 'primary.500',
-                        bg: 'blackAlpha.300',
-                      },
-                    }
-                  : {}
-              }
+                      bg: 'rgba(255, 255, 255, 0.08)',
+                    },
+                  }
+                : {}
+            }
+          >
+            <PricingFeatures>
+              {plan.features.map((feature, i) =>
+                feature ? (
+                  <PricingFeature
+                    key={`${plan.id}-feature-${i}`}
+                    {...feature}
+                  />
+                ) : (
+                  <br key={`${plan.id}-spacer-${i}`} />
+                ),
+              )}
+            </PricingFeatures>
+            <ButtonLink
+              colorScheme="primary"
+              color="black"
+              borderRadius="full"
+              {...plan.action}
+              href={getPlatformHref(plan.action.href)}
             >
-              <PricingFeatures>
-                {plan.features.map((feature, i) =>
-                  feature ? (
-                    <PricingFeature key={i} {...feature} />
-                  ) : (
-                    <br key={i} />
-                  ),
-                )}
-              </PricingFeatures>
-              <ButtonLink 
-                colorScheme="primary" 
-                color="black" // Added black text color
-                {...plan.action}
-              >
-                {plan.action.label || 'Continue'}
-              </ButtonLink>
-            </PricingBox>
-          ))}
-        </SimpleGrid>
-        {children}
-      </Box>
+              {plan.action.label || 'Continue'}
+            </ButtonLink>
+          </PricingBox>
+        ))}
+      </SimpleGrid>
+      {children}
     </Section>
   )
 }
 
-const PricingFeatures: React.FC<React.PropsWithChildren<{}>> = ({
+const PricingFeatures: React.FC<React.PropsWithChildren> = ({
   children,
 }) => {
   return (
@@ -128,17 +167,24 @@ const PricingBox: React.FC<PricingBoxProps> = (props) => {
   const { title, description, price, children, ...rest } = props
   return (
     <VStack
-      zIndex="2"
-      bg="whiteAlpha.600"
-      borderRadius="md"
+      bg="rgba(255, 255, 255, 0.05)"
+      backdropFilter="blur(10px)"
+      borderRadius="xl"
       p="8"
       flex="1 0"
       alignItems="stretch"
-      border="1px solid"
-      borderColor="gray.400"
+      borderWidth="1px"
+      borderColor="rgba(255, 255, 255, 0.1)"
+      boxShadow="0 4px 20px rgba(0, 0, 0, 0.1)"
+      _hover={{
+        bg: "rgba(255, 255, 255, 0.08)",
+        transform: "translateY(-2px)",
+        boxShadow: "0 6px 24px rgba(0, 0, 0, 0.15)"
+      }}
+      transition="all 0.3s ease"
       _dark={{
-        bg: 'blackAlpha.300',
-        borderColor: 'gray.800',
+        bg: 'rgba(255, 255, 255, 0.05)',
+        borderColor: 'rgba(255, 255, 255, 0.1)',
       }}
       {...rest}
     >

@@ -45,11 +45,11 @@ function NavLink({ href, children, isActive, ...rest }: NavLinkProps) {
       py="3"
       transition="0.2s all"
       fontWeight={isActive ? 'semibold' : 'medium'}
-      borderColor={isActive ? 'yellow.400' : undefined}
+      borderColor={isActive ? 'primary.400' : undefined}
       borderBottomWidth="1px"
       color={isActive ? 'white' : undefined}
       _hover={{
-        bg: isActive ? 'yellow.500' : bgActiveHoverColor,
+        bg: isActive ? 'primary.500' : bgActiveHoverColor,
       }}
       {...rest}
     >
@@ -70,7 +70,6 @@ export function MobileNavContent(props: MobileNavContentProps) {
   const bgColor = useColorModeValue('whiteAlpha.900', 'blackAlpha.900')
 
   useRouteChanged(onClose)
-  console.log({ isOpen })
   /**
    * Scenario: Menu is open on mobile, and user resizes to desktop/tablet viewport.
    * Result: We'll close the menu

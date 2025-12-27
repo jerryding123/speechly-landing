@@ -2,21 +2,24 @@ import { chakra, HTMLChakraProps, Image, Flex, Text, useColorModeValue } from '@
 
 export const Logo: React.FC<HTMLChakraProps<'div'>> = (props) => {
   const textColor = useColorModeValue('#231f20', '#fff')
-  
+
   return (
     <chakra.div {...props}>
-      <Flex align="center">
+      <Flex align="center" h="40px">
         <Image
-          src="/static/images/speechlylogo.png"
+          src="/static/images/SpeechlyAppIcon.png"
           alt="Speechly Logo"
-          maxHeight="32px"
+          h="32px"
+          w="auto"
         />
         <Text
           ml={3}
-          fontSize="xl"
-          fontWeight="regular"
+          fontSize="2xl"
+          fontWeight="black"
           color={textColor}
-          fontFamily="Georgia, serif"
+          fontFamily="var(--font-dm-sans)"
+          letterSpacing="-0.01em"
+          lineHeight="1"
         >
           Speechly
         </Text>

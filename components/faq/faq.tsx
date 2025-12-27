@@ -16,6 +16,7 @@ interface FaqProps extends Omit<SectionProps, 'title' | 'children'> {
   title?: React.ReactNode
   description?: React.ReactNode
   items: { q: React.ReactNode; a: React.ReactNode }[]
+  align?: 'left' | 'center' | { base: 'center'; md: 'left' }
 }
 
 export const Faq: React.FC<FaqProps> = (props) => {
@@ -23,11 +24,12 @@ export const Faq: React.FC<FaqProps> = (props) => {
     title = 'Frequently asked questions',
     description,
     items = [],
+    align,
   } = props
 
   return (
     <Section id="faq">
-      <SectionTitle title={title} description={description} />
+      <SectionTitle title={title} description={description} align={align} />
       <Container maxW="container.md" px={{ base: 4, md: 8 }}>
         <Box
           bg="rgba(255, 255, 255, 0.05)"

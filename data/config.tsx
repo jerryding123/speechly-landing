@@ -1,19 +1,25 @@
-import { Button } from '@chakra-ui/react'
 import { Link } from '@saas-ui/react'
 import { NextSeoProps } from 'next-seo'
-import { FaGithub, FaInstagram, FaLinkedin, FaLinkedinIn, FaTiktok, FaTwitter } from 'react-icons/fa'
+import { FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { FiCheck } from 'react-icons/fi'
+
 import { Logo } from './logo'
+import {
+  COMPANY_LINKS,
+  INTERNAL_ROUTES,
+  SOCIAL_LINKS,
+  SUPPORT_EMAIL,
+} from '#constants'
 
 const siteConfig = {
   logo: Logo,
-seo: {
-  title: 'Speechly',
-  description: 'Speechly is the No.1 Text-to-Speech app to turn any text, file and more into natural-sounding audio. Listen anywhere, anytime.',
-} as NextSeoProps,
-
-  termsUrl: '/terms',
-  privacyUrl: '/privacy',
+  seo: {
+    title: 'Speechly',
+    description:
+      'Speechly is the No.1 Text-to-Speech app to turn any text, file and more into natural-sounding audio. Listen anywhere, anytime.',
+  } as NextSeoProps,
+  termsUrl: INTERNAL_ROUTES.terms,
+  privacyUrl: INTERNAL_ROUTES.privacy,
   header: {
     links: [
       {
@@ -22,7 +28,7 @@ seo: {
       },
       {
         id: 'features',
-        label: 'How To Use',
+        label: 'How to Use',
       },
       {
         id: 'testimonials',
@@ -38,7 +44,7 @@ seo: {
       },
       {
         label: 'Download',
-        href: '/download/hero',  // Changed from direct App Store URL
+        href: INTERNAL_ROUTES.downloadHero,
         variant: 'primary',
       },
     ],
@@ -46,66 +52,55 @@ seo: {
   footer: {
     copyright: (
       <>
-        Developed by{' '}
-        <Link href="https://www.liberaceai.com">Liberace Pte. Ltd.</Link> © 2025 • All Rights Reserved
+        Built by <Link href={COMPANY_LINKS.website}>Speechly</Link>{' '}
+        © 2024-2025
       </>
     ),
     links: [
       {
-        href: 'mailto:Support@LiberaceAI.com',
+        href: `mailto:${SUPPORT_EMAIL}`,
         label: 'Contact',
       },
       {
-        href: '/terms',
-        label: 'Terms & Services',
+        href: INTERNAL_ROUTES.terms,
+        label: 'Terms of Service',
       },
       {
-        href: '/privacy',
+        href: INTERNAL_ROUTES.privacy,
         label: 'Privacy Policy',
       },
       {
-        href: 'https://linkedin.com/company/speechly-text-to-speech',
+        href: SOCIAL_LINKS.linkedin,
         label: <FaLinkedinIn size="18" />,
       },
       {
-        href: 'https://x.com/',
+        href: SOCIAL_LINKS.twitter,
         label: <FaTwitter size="18" />,
-      },
-      {
-        href: 'https://www.tiktok.com/',
-        label: <FaTiktok size="18" />,
-      },
-      {
-        href: 'https://www.instagram.com/',
-        label: <FaInstagram size="18" />,
       },
     ],
   },
   signup: {
-    title: 'Start building with Saas UI',
+    title: 'Start listening with Speechly',
     features: [
       {
         icon: FiCheck,
-        title: 'Accessible',
-        description: 'All components strictly follow WAI-ARIA standards.',
+        title: 'Natural Voices',
+        description: 'AI-powered voices that sound human and expressive.',
       },
       {
         icon: FiCheck,
-        title: 'Themable',
-        description:
-          'Fully customize all components to your brand with theme support and style props.',
+        title: 'Multiple Languages',
+        description: 'Support for dozens of languages and accents.',
       },
       {
         icon: FiCheck,
-        title: 'Composable',
-        description:
-          'Compose components to fit your needs and mix them together to create new ones.',
+        title: 'Offline Mode',
+        description: 'Download voices and listen without internet.',
       },
       {
         icon: FiCheck,
-        title: 'Productive',
-        description:
-          'Designed to reduce boilerplate and fully typed, build your product at speed.',
+        title: 'Speed Control',
+        description: 'Adjust playback speed from 0.5x to 3x.',
       },
     ],
   },
